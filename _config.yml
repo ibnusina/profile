@@ -17,13 +17,12 @@ title: Ibnu Sina
 email: ibnu.sina009@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Summary of life and career
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "ibnusina.me" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/profile" # the subpath of your site, e.g. /blog
+url: "https://ibnusina.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ibnusina
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
