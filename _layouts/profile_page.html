@@ -1,21 +1,51 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-{%- include head.html -%}
-
-<body>
-    <div class="container-fluid">
-        <div class="text-center">
-            <img src="{{ "/assets/image/profile.png" | relative_url }}" width=140 class="profile-pic">
-            <h1>Ibnu Sina</h1>
-            <h3>Software Developer</h3>
-            <div class="text-center" style="margin:20px">
-                <a  href="http://ibnusina.me/" class="no-underline" target="_blank">
-						  		ibnusina.me
-						  	</a>
+--- 
+layout: default 
+---
+<div class="container-fluid">
+    <div class="text-center">
+        <img src="{{ "/assets/image/profile.png" | relative_url }}" width="140" class="profile-pic">
+        <h1>Ibnu Sina</h1>
+        <h3>Software Developer</h3>
+        <div class="text-center" style="margin:20px">
+            <a href="http://ibnusina.me/" class="no-underline" target="_blank">
+                                ibnusina.me
+                            </a>
+        </div>
+    </div>
+    <div class="row row-grey">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="row work-item-row">
+                <div class="col-sm-3 col-xs-6">
+                    <img src="{{ "/assets/image/device.png" | relative_url }}" class="img-responsive center-block">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img src="{{ "/assets/image/device.png" | relative_url }}" class="img-responsive center-block">
+                </div>
+                <div class="col-sm-6">
+                    <h2><a href="https://itunes.apple.com/id/app/bridestory-wedding-app-hilda/id1067262519?mt=8" target="blank">Bridestory Wedding App & Hilda</a></h2>
+                    <p>A must have application for brides-to-be. Bridestory Wedding App & Hilda was featured at AppStore in 2015. The app is helpful for a better planning realizing your dream wedding. The app show you a vast library of wedding inspirations and vendors. The app also supports direct chat with Hilda, Bridestory professional wedding consultant.</p>
+                    <h4>Technology</h4>
+                    <p>Bridestory Wedding App & Hilda is built using Swift and Objective-C, using Cocoapods and Git submodule as dependency manager.</p>
+                </div>
             </div>
         </div>
-
     </div>
-</body>
-
-</html>
+    <div class="row row-white">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="row work-item-row">
+                <div class="col-sm-6">
+                    <h2><a href="https://itunes.apple.com/id/app/bridestory-pro-for-vendors/id1014315547?mt=8" target="blank">Bridestory Pro for Vendors</a></h2>
+                    <p>Best companion for wedding business owner. Register and upload wedding project from mobile phone and get notified for incoming brides-to-be inquiries on realtime basis</p>
+                    <h4>Technology</h4>
+                    <p>Bridestory Pro fo Vendor is Objective-C, using Cocoapods and Git submodule as dependency manager.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img src="{{ "/assets/image/device.png" | relative_url }}" class="img-responsive center-block">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img src="{{ "/assets/image/device.png" | relative_url }}" class="img-responsive center-block">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

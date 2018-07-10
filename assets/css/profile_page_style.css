@@ -1,17 +1,6 @@
 
 body {
-/*	background: #F2E9E4;*/
-	/* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to left, #ef32d9, #89fffd);*/
-	/* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to left, #ef32d9, #89fffd);*/
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/*	height: 100%;
-	margin: 0;
-	background-repeat: no-repeat;
-	background-attachment: fixed;*/
 	margin-top:100px;
-	background: #222730;
 }
 
 h1, h2, h3, h4, h5{
@@ -60,10 +49,6 @@ a:hover {
 	margin-top:25px;
 }
 
-nav {
-	display: flex;
-}
-
 .navbar-default {
 	background-color: #93ca44;
 	border: none;
@@ -77,7 +62,7 @@ nav {
 }
 
 .row-grey {
-	background-color: red;
+	background-color: #FBF5F7;
 	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 	padding: 65px 10px;
