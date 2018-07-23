@@ -63,8 +63,6 @@ a:hover {
 
 .row-grey {
 	background-color: #FBF5F7;
-	-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 	padding: 65px 10px;
 }
 
@@ -84,6 +82,11 @@ a:hover {
 
 .work-item-row {
 	/*padding: 10% 0;*/
+}
+
+.work-image {
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .row-tools {
