@@ -72,11 +72,12 @@ a:hover {
 	padding: 20px 10px;
 }
 
-.row-white {
+.row-clear {
 	/*background-color: lightgrey;*/
 	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
 	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
-	padding: 65px 10px;
+	padding: 20px 10px;
+	margin-bottom: 10px;
 }
 
 .row-footer {
